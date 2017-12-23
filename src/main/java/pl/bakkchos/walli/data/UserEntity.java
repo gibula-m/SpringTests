@@ -12,10 +12,16 @@ public class UserEntity {
     @Id
     private String username;
     private String password;
+    private String email;
 
     public UserEntity() {
     }
 
+    public UserEntity(String username, String password, String email) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+    }
 
     public UserEntity(UserEntity user) {
         this.password = user.password;
@@ -33,6 +39,14 @@ public class UserEntity {
         return String.format(
                 "Customer[username='%s', password='%s']",
                 username,password);
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getUsername() {
