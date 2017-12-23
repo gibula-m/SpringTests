@@ -1,4 +1,4 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli.tokenAuth;
 
 
 import io.jsonwebtoken.Jwts;

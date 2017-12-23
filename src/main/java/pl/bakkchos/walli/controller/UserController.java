@@ -1,13 +1,13 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import pl.bakkchos.springangular.data.UserConverter;
-import pl.bakkchos.springangular.data.UserEntity;
-import pl.bakkchos.springangular.data.UserRepository;
+import pl.bakkchos.walli.dto.UserDTO;
+import pl.bakkchos.walli.service.UserConverter;
+import pl.bakkchos.walli.data.UserRepository;
 
 @RestController
 public class UserController {

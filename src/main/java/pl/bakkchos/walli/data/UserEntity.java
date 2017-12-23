@@ -1,4 +1,4 @@
-package pl.bakkchos.springangular.data;
+package pl.bakkchos.walli.data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -6,7 +6,7 @@ import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
-@Table(name = "\"users\"")
+@Table(name = "\"user\"")
 @XmlRootElement
 public class UserEntity {
     @Id

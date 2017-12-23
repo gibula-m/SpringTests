@@ -1,14 +1,12 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import pl.bakkchos.springangular.data.UserEntity;
-import pl.bakkchos.springangular.data.UserRepository;
-
-import java.util.List;
+import pl.bakkchos.walli.data.UserEntity;
+import pl.bakkchos.walli.data.UserRepository;
 
 @Service
 public class UserDetailServiceImpl implements UserDetailsService {

@@ -1,4 +1,4 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringangularApplicationTests {
+public class walliBackendTests {
 
 	@Test
 	public void contextLoads() {

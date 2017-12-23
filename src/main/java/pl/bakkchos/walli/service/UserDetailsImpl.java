@@ -1,10 +1,8 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli.service;
 
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.util.StringUtils;
-import pl.bakkchos.springangular.data.UserEntity;
+import pl.bakkchos.walli.data.UserEntity;
 
 import java.util.Collection;
 import java.util.List;

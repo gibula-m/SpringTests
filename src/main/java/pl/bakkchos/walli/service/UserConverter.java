@@ -1,9 +1,9 @@
-package pl.bakkchos.springangular.data;
+package pl.bakkchos.walli.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
-import pl.bakkchos.springangular.UserDTO;
+import pl.bakkchos.walli.dto.UserDTO;
+import pl.bakkchos.walli.data.UserEntity;
 
 @Component
 public class UserConverter implements Converter<UserEntity, UserDTO> {

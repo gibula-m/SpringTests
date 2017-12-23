@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>pl.bakkchos</groupId>
-	<artifactId>springangular</artifactId>
+	<artifactId>walli</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springangular</name>
-	<description>Demo project for Spring Boot</description>
+	<name>walli</name>
+	<description>gibula-m webapp spring restapi</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

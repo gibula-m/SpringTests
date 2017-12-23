@@ -1,4 +1,4 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,9 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import pl.bakkchos.springangular.data.UserRepository;
+import pl.bakkchos.walli.service.UserDetailServiceImpl;
+import pl.bakkchos.walli.tokenAuth.JWTAuthenticationFilter;
+import pl.bakkchos.walli.tokenAuth.JWTLoginFilter;
 
 import javax.sql.DataSource;
 

@@ -1,8 +1,17 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli.dto;
 
-public class AccountCredentials {
-    private String username;
-    private String password;
+public class UserDTO {
+    String username;
+    String password;
+
+    public UserDTO() {
+
+    }
+
+    public UserDTO(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 
     public String getUsername() {
         return username;

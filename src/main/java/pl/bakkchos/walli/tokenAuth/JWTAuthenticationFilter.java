@@ -1,4 +1,4 @@
-package pl.bakkchos.springangular;
+package pl.bakkchos.walli.tokenAuth;
 
 
 import org.springframework.security.core.context.SecurityContextHolder;
